@@ -7,7 +7,7 @@ cask "barometer" do
   desc "Private, local Claude Code usage monitor for the macOS menu bar"
   homepage "https://github.com/YasinSimsek99/barometer"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Barometer.app"
 
